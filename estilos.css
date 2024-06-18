@@ -1,0 +1,177 @@
+h1{
+	color: lime;
+	padding: 5px 60px;
+	position: absolute;
+	margin-left: 280px;
+	font-family: monospace;
+}
+
+h2 {
+    font-weight: normal;
+    text-align:center;
+    background:#EC3043;
+ }
+ 
+ p {
+    font-family:arial, helvetica, sans-serif;
+    font-size:16px;
+    font-weight:normal;
+    text-align:left;
+    line-height:30px;
+    letter-spacing:normal;
+}   
+
+a {
+  font-size:20px;
+  text-decoration:none;
+  margin:10px 20px;
+  display:inline-block;
+  background:#F191EC;
+  color:#fff; 
+  padding:10px 20px;
+ 
+
+}
+
+div {
+    width:100%;
+    height: 150px;
+    display: flex;
+    margin: 0;
+}
+
+img {
+
+    width: 100px
+    height:;
+    display:block;
+    border-radius:5px;
+    box-shadow:1px 1px 0px #F12724;
+    padding:2px;
+    border:1px solid #F12724;
+    /*margin: auto;*/
+}
+
+.logo-alcaldia{
+	background: green;
+	width: 155px;
+	height: 100px;
+	float: right;
+	margin-top: -100px;
+}
+
+.logo-alcaldia img{
+	background: green;
+	width: 150px;
+	height: 90px;
+	float: right;
+}
+
+
+* {
+	margin:0px;
+	padding:0px;
+}
+
+body {
+	background:#FDDF6E;
+}
+
+header, .main, footer {
+	background:#5EC6FA ;
+	width:90%;
+	max-width:1000px;
+	margin:20px auto;
+}
+
+header{
+	background: #E8FB45;
+}
+
+.titulo-principal{
+	background: ;
+	width: 500px;
+	float: right;
+	margin-top: -78px;
+	margin-right: 150px;
+	border-radius: 5px; 
+}
+
+header nav {
+	background: white;
+	overflow: hidden;
+
+}
+
+header nav ul {
+	list-style:none;
+}
+
+header nav ul li {
+	float:left;
+}
+
+.ini{
+	font-size: 18px;
+	font-family: monospace;
+}
+
+.val{
+	font-size: 26px;
+	font-family: monospace;
+}
+
+.obj{
+	font-size: 18px;
+	font-family: monospace;
+}
+
+.mis{
+	font-size: 18px;
+	font-family: monospace;
+}
+
+.vis{
+	font-size: 18px;
+	font-family: monospace;
+}
+
+header nav ul li a {
+	padding:10px 20px;
+	display:block;
+	background: #4EDF52;
+	text-decoration:none;
+	color: black;
+}
+
+header nav ul li a:hover {
+	background:#43C2F9;
+}
+
+
+
+.main .article {
+	width:68.5%;
+	margin-right:1.5%; 
+	float:left;
+	background:#91D1F5;
+}
+
+aside {
+	width:30%;
+	height: 375px;
+	background:#73FA83;
+	float:left;
+	padding:20px;
+	box-sizing:border-box;
+}
+
+footer {
+	background:#D41E16;
+	color:#fff;
+	clear:both;
+	padding:3px 0px;
+	text-align:center;
+	margin-top: 400px;
+
+}
